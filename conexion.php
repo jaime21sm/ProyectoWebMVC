@@ -1,20 +1,18 @@
 <?php
+$host = "localhost";
+$dbname = "videojuegos";
+$username = "root"; // Usuario por defecto en WAMP
+$password = "";     // Contraseña por defecto en WAMP (vacía)
 
-$host ="127.0.0.1";
-$dbname ="mi-sitio";
-$username ="root";
-$password ="";
-
-try{
-   //funcion conexion B.D.
-   $conexion = new PDO ("mysql:host=$host;dbname=$dbname;chatset=utf8", $username, $password);
-   
-
-   $conexion -> setAttribute(PDO:: ATTR_)
-
-
-} catch{
+try {
+    // Creamos la conexión usando el objeto PDO
+    $conexion = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
     
+    // Configuramos PDO para que lance excepciones en caso de errores
+    $conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    // Si hay un error de conexión, detiene el script y lo muestra
+    die("Error crítico de conexión: " . $e->getMessage());
 }
 
 ?>

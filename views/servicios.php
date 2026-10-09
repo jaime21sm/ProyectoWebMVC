@@ -1,8 +1,7 @@
-<h2> Consulta nuestros servicios </h2>
-<p> Ofrecemos soluciones web a la medida </p>
-
+<h2>Nuestros Servicios</h2>
+<p>Ofrecemos soluciones web a medida:</p>
 <ul>
-    <li> Desarrollo Backend con PHP</li>
-    <li> Manquetación con HTML/CSS</li>
-    <li> Diseño de interfaces de ususario</li>
+    <li>Desarrollo Backend con PHP</li>
+    <li>Maquetación Semántica HTML/CSS</li>
+    <li>Diseño de Interfaces Dinámicas</li>
 </ul>

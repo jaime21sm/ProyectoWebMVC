@@ -1,22 +1,23 @@
+<!-- views/header.php -->
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="with=device-width, initial-scale=1.0">
-        <title> Página web MVC </title>
-        <link reel="stylesheet" href="assets/css/estilos.css">
-    </head>
-
-    <body>
-        <header>
-           <h1>Mi sitio web MVC </h1>
-           <nav>
-            <ul>
-                <li><a href="index.php?seccion=inicio.php"> Inicio</a> </li>
-                <li> <a href="index.php?seccion=servicios.php"> Servicios </a>  </li>
-                <li> <a href="index.php?seccion=contacto.php"> Contacto </a>  </li>
-                <ul>
-            </nav>        
-        </header>   
-        <div id="contenedor-principal">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maqueta Web Dinámica en PHP (MVC)</title>
     
+    <!-- Vinculación del archivo CSS externo -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Primer Sitio Web</h1>
+        <nav>
+            <ul>
+                <li><a href="inicio">Inicio</a></li>
+                <li><a href="servicios">Servicios</a></li>
+                <li><a href="contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="contenedor-principal">
