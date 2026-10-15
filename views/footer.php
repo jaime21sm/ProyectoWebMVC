@@ -1,6 +1,9 @@
-    </div> <!-- Cierre de #contenedor-principal -->
-    <footer>
-        <p>&copy; <?php echo date("Y"); ?> Mi Empresa - Todos los derechos reservados.</p>
-    </footer>
+{% if !caja %}
+</div>
+<footer>
+    <p>&copy; {{ anio }} Ghost Hunter's Den - Taller 4</p>
+</footer>
+{% endif %}
 </body>
 </html>
+

@@ -1,2 +1,3 @@
-<h2>Bienvenido a nuestra Página de Inicio</h2>
-<p>Este es el contenido principal de la portada. Cambia dinámicamente usando PHP al interactuar con el menú superior sin necesidad de crear múltiples archivos HTML.</p>
+<h2>¿Te atreves a entrar?</h2>
+<div class="hero-svg"><?= svgCasaEmbrujada() ?></div>
+<p>Este sitio es un homenaje a <strong>Phasmophobia</strong>, el juego cooperativo de caza de fantasmas.</p>
